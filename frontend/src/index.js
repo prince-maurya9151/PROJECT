@@ -15,6 +15,7 @@ import NotFound from './landing_page/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <span>
   <BrowserRouter>
   <NavBar/>
   <Routes>
@@ -28,4 +29,5 @@ root.render(
   </Routes>
   <Footer/>
   </BrowserRouter>
+  </span>
 );
